@@ -4,4 +4,3 @@ numpy
 plotly
 plotly_express
 matplotlib
-plotly.express
