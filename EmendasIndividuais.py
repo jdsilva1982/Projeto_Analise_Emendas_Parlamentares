@@ -9,7 +9,7 @@ pd.set_option('display.float_format', "R$ {:20,.2f}".format)
 import locale
 
 st.set_page_config(
-         page_title="Minha primeira Web APP", #1
+         page_title="Análise de Emendas Parlamentares", #1
          page_icon="🧊", #2
          layout="centered", #3
          initial_sidebar_state="expanded", #4
@@ -30,7 +30,7 @@ def carrega_dados():
     return df
 df = carrega_dados()
 ## Adicionar uma select box para escolher o tipo de gráfico
-tipo_grafico = st.selectbox('Escolha o de gráfico que deseja exibir',
+tipo_grafico = st.selectbox('*** Escolha o gráfico que deseja exibir ***',
                              ["Valores Liberados em Emendas por Ano",
                              "Quantidade de Emendas Liberadas por ano para PE",
                              "Valores Liberados por tipo de Emenda em PE",
