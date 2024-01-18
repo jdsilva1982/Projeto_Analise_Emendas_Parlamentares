@@ -1,8 +1,6 @@
 #importando as bibliotecas
 import pandas as pd
 import streamlit as st
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
 import numpy as np
 import plotly.express as px
 import matplotlib.pyplot as plt
