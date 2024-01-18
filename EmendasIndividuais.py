@@ -4,6 +4,7 @@ import streamlit as st
 import numpy as np
 import plotly.express as px
 import matplotlib.pyplot as plt
+
 pd.set_option('display.float_format', "R$ {:20,.2f}".format)
 import locale
 
